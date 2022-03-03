@@ -1,0 +1,101 @@
+.movieContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.movieContainer h3,
+.movieContainer img {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+  color: crimson;
+  font-size: 2.5rem;
+}
+.mainContainer {
+  display: flex;
+
+  column-gap: 3rem;
+  row-gap: 2rem;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.movieSummary {
+  line-height: 1.3rem;
+  width: 50%;
+
+  box-shadow: 3px -5px 2px rgba(0, 0, 0, 0.25),
+    -3px 5px 3px rgba(131, 128, 128, 0.45);
+  border-radius: 10px;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 1em 0 2em;
+  margin: 5rem auto;
+  position: relative;
+}
+
+.movieSummary p {
+  padding-bottom: 1rem;
+}
+
+span {
+  color: rgb(128, 128, 128, 0.95);
+  font-weight: 600;
+}
+input {
+  display: block;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  width: 200px;
+  padding: 5px;
+}
+
+.myForm {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 1rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  box-shadow: 3px -5px 2px rgba(0, 0, 0, 0.25), -3px 5px 3px rgba(0, 0, 0, 0.45);
+}
+
+.btn {
+  border-color: transparent;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #b4345c;
+  color: #fff;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.mybtn {
+  border-color: transparent;
+
+  border-radius: 10px;
+  background-color: #b4345c;
+  color: #fff;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 7rem;
+  margin-bottom: 1rem;
+}
